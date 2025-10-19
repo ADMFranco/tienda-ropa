@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Iniciar sesión | TiendaEstilo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Estilo Urbano</h1>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <span id="nav-usuario" class="nav-usuario"></span>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="login-page">
+    <div class="login-card">
+      <div class="tabs">
+        <button id="tab-login" class="tab activo">Iniciar sesión</button>
+        <button id="tab-register" class="tab">Registrarse</button>
+      </div>
+
+      <!-- LOGIN -->
+      <form id="formLogin" class="formulario activo">
+        <label for="loginEmail">Correo</label>
+        <input id="loginEmail" type="email" placeholder="tu@correo.com" required>
+        <label for="loginPass">Contraseña</label>
+        <input id="loginPass" type="password" placeholder="Contraseña" required>
+        <button type="submit" class="btn">Iniciar sesión</button>
+        <p class="texto-ayuda">¿No tienes cuenta? <button type="button" id="toRegister" class="link-like">Regístrate</button></p>
+        <p id="msgLogin" class="mensaje oculto"></p>
+      </form>
+
+      <!-- REGISTER -->
+      <form id="formRegister" class="formulario">
+        <label for="regName">Nombre</label>
+        <input id="regName" type="text" placeholder="Tu nombre" required>
+        <label for="regEmail">Correo</label>
+        <input id="regEmail" type="email" placeholder="tu@correo.com" required>
+        <label for="regPass">Contraseña</label>
+        <input id="regPass" type="password" placeholder="Contraseña" required>
+        <label for="regPass2">Confirmar contraseña</label>
+        <input id="regPass2" type="password" placeholder="Repite la contraseña" required>
+        <button type="submit" class="btn">Crear cuenta</button>
+        <p id="msgRegister" class="mensaje oculto"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Estilo Urbano</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

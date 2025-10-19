@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Ropa - Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Estilo Urbano</h1>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html" class="activo">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <span id="nav-usuario" class="nav-usuario"></span>
+      </ul>
+      <button id="verCarrito" class="btn">🛒 Ver Carrito</button>
+    </nav>
+  </header>
+
+  <!-- CATÁLOGO -->
+  <section class="productos">
+    <h2>Nuestros Productos</h2>
+    <div id="productos-container" class="grid-productos"></div>
+  </section>
+
+  <!-- PANEL DEL CARRITO -->
+<div id="carrito" class="carrito-lateral oculto">
+  <div class="carrito-contenido">
+    <h2>Tu Carrito</h2>
+    <div id="carrito-items"></div>
+    <p id="total">Total: S/ 0</p>
+    <div class="acciones-carrito">
+      <button id="vaciarCarrito" class="btn">Vaciar</button>
+      <button id="cerrarCarrito" class="btn cerrar">Cerrar</button>
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+    <p>© 2025 Estilo Urbano - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
