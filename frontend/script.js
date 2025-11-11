@@ -4,7 +4,12 @@ const productos = [
   { id: 2, nombre: "Zapatillas Urbanas", precio: 120, imagen: "img/zapatillas.jpg" },
   { id: 3, nombre: "Gorra Casual", precio: 35, imagen: "img/gorra.jpg" },
   { id: 4, nombre: "Casaca Street", precio: 180, imagen: "img/casaca.jpg" },
-  { id: 5, nombre: "Pantalón Denim", precio: 95, imagen: "img/pantalon.jpg" }
+  { id: 5, nombre: "Pantalón Denim", precio: 95, imagen: "img/pantalon.jpg" },
+  { id: 6, nombre: "Gorra Casual", precio: 35, imagen: "img/gorra.jpg" },
+  { id: 7, nombre: "Casaca Street", precio: 180, imagen: "img/casaca.jpg" },
+  { id: 8, nombre: "Gorra Casual", precio: 35, imagen: "img/gorra.jpg" },
+  { id: 9, nombre: "Casaca Street", precio: 180, imagen: "img/casaca.jpg" },
+  { id: 10, nombre: "Casaca Street", precio: 180, imagen: "img/casaca.jpg" }
 ];
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
