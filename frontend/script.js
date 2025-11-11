@@ -5,11 +5,11 @@ const productos = [
   { id: 3, nombre: "Gorra Casual", precio: 35, imagen: "img/gorra.jpg" },
   { id: 4, nombre: "Casaca Street", precio: 180, imagen: "img/casaca.jpg" },
   { id: 5, nombre: "Pantalón Denim", precio: 95, imagen: "img/pantalon.jpg" },
-  { id: 6, nombre: "Gorra Casual", precio: 35, imagen: "img/gorra.jpg" },
-  { id: 7, nombre: "Casaca Street", precio: 180, imagen: "img/casaca.jpg" },
-  { id: 8, nombre: "Gorra Casual", precio: 35, imagen: "img/gorra.jpg" },
-  { id: 9, nombre: "Casaca Street", precio: 180, imagen: "img/casaca.jpg" },
-  { id: 10, nombre: "Casaca Street", precio: 180, imagen: "img/casaca.jpg" }
+  { id: 6, nombre: "Conjunto Deportivo", precio: 120, imagen: "img/cdeportivo.jpg" },
+  { id: 7, nombre: "Conjunto De Verano", precio: 80, imagen: "img/cverano.jpg" },
+  { id: 8, nombre: "Conjunto De Invierno", precio: 90, imagen: "img/cinvierno.jpg" },
+  { id: 9, nombre: "Conjunto Casual (Mujer)", precio: 150, imagen: "img/cmcasual.jpg" },
+  { id: 10, nombre: "Conjunto Formal", precio: 250, imagen: "img/cformal.jpg" }
 ];
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
